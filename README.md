@@ -1,7 +1,8 @@
 # RockoYT
 Streaming music application. Fetch music from YTmusic, free, no adds!
 
-
+## Usage
+TODO: User guide
 
 ## Developers 
 
@@ -19,3 +20,14 @@ Once you cloned the repo, type:
 pipenv install
 ```
 This will set up the env.
+
+
+
+### `stream` C routine
+Playing media straight from the Internet without storing it locally is known as Streaming
+
+#### Compiling `stream`
+Use the following to compile stream.c:
+```
+gcc stream.c -o stream `pkg-config --cflags --libs gstreamer-1.0`
+```

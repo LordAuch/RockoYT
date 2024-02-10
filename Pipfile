@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 ytmusicapi = "*"
-pytube3 = "*"
+pytube = "*"
 
 [dev-packages]
 
